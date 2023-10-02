@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:url(subway-surfers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+   
+
+    
+
+}
+.video{
+   
+    flex:50%;
+    width: 100%;
+    height: 60vh;
+    
+}
+.video video{
+    
+background-image: linear-gradient(black,black);
+    width: 100%;
+    height: 60vh;
+    
+}
+p{
+    line-height: 1.5;
+    font-size: 15px;
+}
+.text{
+    font-family: sans-serif;
+    flex: 50%;
+    width: 100%;
+    height: 60vh;
+    padding: 120px;
+    font-family:" Lato,Avenir,aktiv-grotesk,sans-serif";
+    
+    
+}
+.text2{
+    flex: 50%;
+    background-image: url(chicago_website_02.jpg);
+    width: 100%;
+    height: 60vh;
+    padding: 80px;
+   
+    color: white;
+    font-family:" Lato,Avenir,aktiv-grotesk,sans-serif";
+ 
+   
+}
+
+   
+.text3{
+    flex: 50%;
+    background-color:rgb(244 158 66);
+    width: 100%;
+    height:  60vh;
+    padding: 80px;
+   
+     color: white;
+ 
+}
+.image{
+    flex:50%;
+    width: 100%;
+    height: 60vh;
+}
+
+
+.btn{
+    margin: 70px auto 0;
+  text-align: center;
+
+}
+.btn a{
+    width: 200px;
+    text-decoration: none;
+    
+    display: inline-block;
+   
+    padding: 10px 20px;
+    color:#fff;
+    border: .5px solid #fff;
+    transition:color 0.5s ;
+    position: relative;
+    z-index: 1;
+    border-radius: 30px;
+    transform: scale(1.0);
+    
+}
+
+
+
+.btn a span{
+    width: 0;
+    height:100%;
+    position: absolute;
+     top: 0;
+    left: 0;
+    background: #fff; 
+    
+    z-index: -1;
+    border-radius: 30px;
+}
+.btn  a:hover span{
+    width: 100%;
+   
+}
+.btn:hover {
+    transform: scale(1.1);
+   
+}
+.btn  a:hover{
+    color: black;
+}
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250;
+    top: 0;
+    background: #333;
+    z-index:2;
+    transition:0.5s ;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+ text-decoration: none;
+ color: #fff;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background:none;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width:20px;
+    margin-top: 15px;
+}
+
+
+
+
+.col1{
+    flex-basis: 30%;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+   
+
+}
+.logo1{
+    
+    width:110px;
+    margin-bottom: 20px;
+    margin-top: 20%;
+    margin-left: 20px;
+}
+.logo2{
+    font-size: 30px;
+    width:20px;
+  margin-left: 20px;
+    margin-bottom: 50px;
+    
+}
+.copyright{
+    color:#a8a2a2;
+    font-size: 15px;
+   
+    
+}
+
+.centre{
+ 
+    margin-top: 5%;  
+   margin-left: 10%;
+}
+ .row1{
+    width:100%;
+   display: flex;
+    bottom: 0; 
+   padding-left: 12%;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #333;
+    
+    
+    
+}
+.centre ul li{
+   padding: 10px;
+
+}
+.centre ul li{
+    list-style: none;
+   
+}
+.centre ul li a{
+ text-decoration: none;
+ color: #fff;
+
+}
+.right {
+    margin-top: 5%;  
+    margin-left: 20%;
+}
+.right p{
+    list-style: none;
+   
+}
+.right p a{
+ text-decoration: none;
+ color:#a8a2a2;
+
+}
