@@ -1,2 +1,2 @@
-# Subway_surfers_website
- https://akhildas2.github.io/Subway_surfers_website/
+# Subway_Surfers_Static_Website
+https://akhildas2.github.io/Subway_Surfers_Static_Website/
